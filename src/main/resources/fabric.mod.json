@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "stunslam",
+  "version": "${version}",
+  "name": "Stun Slam Auto Axe",
+  "description": "When you hit a player who is blocking with a shield, briefly swaps to an axe from your hotbar to break the shield, then swaps back to the item you were holding (e.g. a mace).",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.stunslam.StunSlamClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
